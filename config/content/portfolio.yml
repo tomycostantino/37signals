@@ -1,0 +1,34 @@
+title: "Hi team at 37Signals"
+motivation: "I currently still work a full time job, and also am not actively searching for a job. But when I saw DHH's post on X I had to apply since this sounds like a dream job and a once in a lifetime opportunity. That being said, here is a bit about my story and why I think we are are a great fit for each other:"
+
+sections:
+  - title: "Who am I?"
+    id: "who-am-i"
+    content:
+      - description: "I am Tomas Costantino, a programmer living in the north of Italy. I know you are looking for a junior programmer and this is my way of showing why I want to be the one."
+      - description: "I am 24 y/o developer from Argentina, I moved to Australia at 18 to pursue opportunities. Last year I moved to Europe to be with my partner."
+      - description: "I started programming at 14 when I was in high school. My first language was C, and I was using CodeBlocks. After the introductory year we moved to coding for PIC microcontrollers and Arduino."
+      # - description: "As soon as I finished high school I moved to Australia to learn English (believe me, I could barely say a word). 6 months after my course I reached an enough level to get into university"
+      - description: "At 19 I started university, unfortunately not a fancy one but something I could afford. Reality is that I did probably learn more on my own than having spent such amount of money. After that, my first gig as a programmer came, and was presented as a challenge"
+        more: "(see more here)."
+        href: ""
+
+  - title: "Why me?"
+    id: "why-me"
+    content:
+      - description: "The reason I consider myself a good candidate, without sounding arrogant, is my unleashed potential."
+      - description: "Currently I am developing a CRM - ERP all by myself, which is actually quite big, and I am doing so remotely with 8 to 10 hours difference."
+      - description: "I think long and hard about a question before asking. I try to avoid unnecessary meetings. I write, test, get feedback, and repeat. What I do not know, I learn."
+      - description: "So what would be the reason for me to want to change if I already do some things I like?"
+      - description: "First, loneliness, what is the point on developing alone and not sharing success? Second, reach, I want my code to help people, as many as possible, not just a few."
+
+  - title: "My work"
+    id: "my-work"
+    content:
+      - description: "Words without proof are nothing, right? Although almost everything I have worked on so far has been for my current employer, and the code is not to be shared, down below are some of my accomplishments work."
+      - description: "For starters, I introduced Expo and React Native. Code once run everywhere, avoid boilerplate code and ship fast were the reasons for this choice."
+
+  - title: "What I can bring to the team"
+    id: "what-i-bring"
+    content:
+      - description: ""

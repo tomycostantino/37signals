@@ -1,0 +1,145 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    font-size: 16px;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #0066cc;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.sub-content {
+    flex: 1;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.card {
+    border-radius: 1rem;
+    min-height: 1rem;
+    max-width: 600px;
+    border: 1px solid #e8e8e8;
+    padding: 0.5rem;
+}
+
+.divider {
+    border: 1px solid #e8e8e8;
+    height: 0;
+    width: auto;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom:16px;
+}
+
+h3[id] {
+    scroll-margin-top: 75px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    h3[id] {
+        scroll-margin-top: 100px;
+    }
+}

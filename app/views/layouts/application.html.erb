@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tomas Costantino</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-content">
+    <ul class="nav-links">
+      <% @content['sections'].each do |section| %>
+        <li><a href="#<%= section['id'] %>"><%= section['title'] %></a></li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
+<%= yield %>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<div class="content">
+  <h1><%= @content['title'] %></h1>
+
+  <div class="divider"></div>
+
+  <% @content['sections'].each_with_index do |section, index| %>
+    <h3 id="<%= section['id'] %>"><%= section['title'] %></h3>
+    <% section['content'].each do |content| %>
+      <div class="sub-content">
+        <p>
+          <%= content['description'] %>
+          <a href="<%= content['href'] %>"><%= content['more'] %></a>
+        </p>
+      </div>
+    <% end %>
+    <% if index < @content['sections'].length - 1 %>
+      <div class="divider"></div>
+    <% end %>
+  <% end %>
+</div>
