@@ -8,27 +8,43 @@ sections:
       - description: "I am Tomas Costantino, a programmer living in the north of Italy. I know you are looking for a junior programmer and this is my way of showing why I want to be the one."
       - description: "I am 24 y/o developer from Argentina, I moved to Australia at 18 to pursue opportunities. Last year I moved to Europe to be with my partner."
       - description: "I started programming at 14 when I was in high school. My first language was C, and I was using CodeBlocks. After the introductory year we moved to coding for PIC microcontrollers and Arduino."
-      # - description: "As soon as I finished high school I moved to Australia to learn English (believe me, I could barely say a word). 6 months after my course I reached an enough level to get into university"
-      - description: "At 19 I started university, unfortunately not a fancy one but something I could afford. Reality is that I did probably learn more on my own than having spent such amount of money. After that, my first gig as a programmer came, and was presented as a challenge"
+      - description: "At 19 I started university, unfortunately not a fancy one but something I could afford. Reality is that I did probably learn more on my own than having spent such amount of money. After that, my first gig as a programmer came, and it was quite a challenge"
         more: "(see more here)."
         href: ""
 
   - title: "Why me?"
     id: "why-me"
     content:
-      - description: "The reason I consider myself a good candidate, without sounding arrogant, is my unleashed potential."
+      - description: "The reason I consider myself a good candidate is that I believe I can make meaningful contributions, and not only from a technical standpoint. I am also very open to feedback and I like telling people my thoughts too."
       - description: "Currently I am developing a CRM - ERP all by myself, which is actually quite big, and I am doing so remotely with 8 to 10 hours difference."
       - description: "I think long and hard about a question before asking. I try to avoid unnecessary meetings. I write, test, get feedback, and repeat. What I do not know, I learn."
       - description: "So what would be the reason for me to want to change if I already do some things I like?"
-      - description: "First, loneliness, what is the point on developing alone and not sharing success? Second, reach, I want my code to help people, as many as possible, not just a few."
+      - description: "First, loneliness, what is the point on developing alone and not sharing success? Second, reach, I want my code to mean something to people, as many as possible, not just a few."
 
   - title: "My work"
     id: "my-work"
     content:
-      - description: "Words without proof are nothing, right? Although almost everything I have worked on so far has been for my current employer, and the code is not to be shared, down below are some of my accomplishments work."
-      - description: "For starters, I introduced Expo and React Native. Code once run everywhere, avoid boilerplate code and ship fast were the reasons for this choice."
-
-  - title: "What I can bring to the team"
-    id: "what-i-bring"
+      - description: "All I said without proof does not mean much, and although almost everything I have worked on so far has been for my current employer, and the code is proprietary, down below are some of my accomplishments at work."
+      - description: "For starters, I introduced Expo and React Native, code once, run everywhere. The reason behind this decision was to avoid boilerplate code and ship fast. Also it turned out EAS can be run locally which avoids vendor costs for distribution."
+      - description: "I built our heuristics algorithm to find suitable spots to find jobs. While not fully in place yet, the goal is to reduce the need for us to callback people and save customers' time and ours."
+        more: "(Demo)"
+        href: ""
+      - description: "Another one of my tasks was our SMS line which is used a lot. I built it using Django, which at the time I did not know the inspiration came from Rails. It handles receiving, sending instant, futures and group messages."
+        more: "(Demo)"
+        href: ""
+      - description: "Last one for now, this project. Even if it is very simple, I got to truly understand why Rails is meant to be this way, so in the next section there are my thoughts about it, and something I that believe could be improved even further."
+        more: "(Code)"
+        href: "https://github.com/tomycostantino/37signals.git"
+  - title: "Thoughts on Rails"
+    id: "my-thoughts"
     content:
-      - description: ""
+      - description: "Rails and Kamal are great tools, I really could not believe how little there was to set up and how many things were taken care of after a few hours playing with it. Another thing I love is the easiness to deploy the software on our resources and not depend on a simple provider that later jacks up the prices."
+      - description: "What I found somehow frustrating is in the deployment part, the Kamal Proxy. The site is deployed on my Hetzner server, which had been running for a while, and some things are using Nginx taking ports 80 and 443."
+      - description: "My question is: how could we make it easier to bind kamal-proxy to bind to custom ports? Yes, I did read the docs and overcame the problem, but could it possibly be setup on the deploy.yml file?"
+
+  - title: "The end"
+    id: "the-end"
+    content:
+      - description: "Finally, I want to say that I will keep my journey on Rails regardless of the outcome of your decision. It has truly amazed me how much effort there is invested into making developers' lives easier. This application has been  very thought provoking for me, and the least I can do is thank you."
+
+my-thoughts: "I wanted to give some thoughts about my experience with Rails and Kamal. What I love about it is the no vendor lock-in part, but "
