@@ -22,6 +22,9 @@ sections:
   - title: "My work"
     id: "my-work"
     content:
+      - description: "Currently, I am working on Time IO, a tiny work time tracker app that that also monitors amount spent on each app. It uses Electron JS and handles IPC to interact with a Python script in charge of monitoring (Only MacOS for now)"
+        more: "(Code)"
+        href: "https://github.com/tomycostantino/timeio.git"
       - description: "All I said without proof does not mean much, and although almost everything I have worked on so far has been for my current employer, and the code is proprietary, down below are some of my accomplishments at work."
       - description: "For starters, I introduced Expo and React Native, code once, run everywhere. The reason behind this decision was to avoid boilerplate code and ship fast. Also it turned out EAS can be run locally which avoids vendor costs for distribution."
       - description: "I built our heuristics algorithm to find suitable spots to find jobs. While not fully in place yet, the goal is to reduce the need for us to callback people and save customers' time and ours."
