@@ -1,5 +1,4 @@
 title: "Hi team at 37Signals"
-motivation: "I currently still work a full time job, and also am not actively searching for a job. But when I saw DHH's post on X I had to apply since this sounds like a dream job and a once in a lifetime opportunity. That being said, here is a bit about my story and why I think we are are a great fit for each other:"
 
 sections:
   - title: "Who am I?"
@@ -22,17 +21,13 @@ sections:
   - title: "My work"
     id: "my-work"
     content:
-      - description: "Currently, I am working on Time IO, a tiny work time tracker app that that also monitors amount spent on each app. It uses Electron JS and handles IPC to interact with a Python script in charge of monitoring (Only MacOS for now)"
+      - description: "All I said without proof does not mean much, and although almost everything I have worked on so far has been for my current employer, and the code is proprietary, down below are some of my personal projects and accomplishments at work."
+      - description: "Currently, I am working on Time IO, a tiny work time tracker app that also monitors amount spent on each app. It uses Electron JS and handles IPC to interact with a Python script in charge of monitoring (Only MacOS for now)"
         more: "(Code)"
         href: "https://github.com/tomycostantino/timeio.git"
-      - description: "All I said without proof does not mean much, and although almost everything I have worked on so far has been for my current employer, and the code is proprietary, down below are some of my accomplishments at work."
-      - description: "For starters, I introduced Expo and React Native, code once, run everywhere. The reason behind this decision was to avoid boilerplate code and ship fast. Also it turned out EAS can be run locally which avoids vendor costs for distribution."
+      - description: "At work, I introduced Expo and React Native, one codebase that runs on Android and iOS. The reason behind this decision was to avoid boilerplate code and ship fast. Also it turned out EAS can be run locally which avoids vendor costs for distribution."
       - description: "I built our heuristics algorithm to find suitable spots to find jobs. While not fully in place yet, the goal is to reduce the need for us to callback people and save customers' time and ours."
-        more: "(Demo)"
-        href: "https://youtu.be/2ti4EjQ8MDQ"
       - description: "Another one of my tasks was our SMS line which is used a lot. I built it using Django, which at the time I did not know the inspiration came from Rails. It handles receiving, sending instant, futures and group messages."
-        more: "(Demo)"
-        href: "https://youtu.be/gxmuLI7zRAc"
       - description: "Last one for now, this project. Even if it is very simple, I got to truly understand why Rails is meant to be this way, so in the next section there are my thoughts about it, and something I that believe could be improved even further."
         more: "(Code)"
         href: "https://github.com/tomycostantino/37signals.git"
@@ -47,5 +42,3 @@ sections:
     id: "the-end"
     content:
       - description: "Finally, I want to say that I will keep my journey on Rails regardless of the outcome of your decision. It has truly amazed me how much effort there is invested into making developers' lives easier. This application has been  very thought provoking for me, and the least I can do is thank you."
-
-my-thoughts: "I wanted to give some thoughts about my experience with Rails and Kamal. What I love about it is the no vendor lock-in part, but "
